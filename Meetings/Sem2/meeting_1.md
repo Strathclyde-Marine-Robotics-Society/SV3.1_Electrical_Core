@@ -1,9 +1,9 @@
 # Meeting 1
 
-**Meeting Date**: 21/01/2026
-**Actual time of writing this document**: the 22nd.
-**Attendees**: Sandy, Alfie, Ezra, Eli, Michael, Owen.
-**Absences**: Ben.
+**Meeting Date**: 21/01/2026  
+**Actual time of writing this document**: the 22nd.  
+**Attendees**: Sandy, Alfie, Ezra, Eli, Michael, Owen.  
+**Absences**: Ben.  
 
 ### Topics
 
