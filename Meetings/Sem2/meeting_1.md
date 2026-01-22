@@ -28,6 +28,9 @@
 	3. Owen - Create a to-do list/ board.
 	4. Owen - Arrange meeting with software team to understand networking infrastructure (may no longer be necessary).
 
+-----------------
+
+
 ### Relevant Notes from General Meeting
 
 Attendees: Alex, Asa, Owen
