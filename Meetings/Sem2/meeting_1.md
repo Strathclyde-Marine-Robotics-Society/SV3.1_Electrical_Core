@@ -7,7 +7,7 @@
 
 ### Topics
 
-1. **Recap of Electrical System**
+1. **Recap of Electrical System**  
 	1. **Kill Switch Investigation**
 	    1. Question: Why are there two wireless kill switches? - Car key, RC switch.
 	    2. Assumption: Car and the emergency button have identical behaviour (aside from range)
@@ -16,13 +16,13 @@
 	  2. **ESC Transient Suppression**
 	    1. Investigation: Do current ESC's have transient suppression? 
 	    
-2. **System Functionality Requirements**
+2. **System Functionality Requirements**  
 	1. Broke down into 4 main areas
 	    1. MCU, Diagnostic System, Antennae, Power
 	2. Additional detailed requirements were added
 	    1. Still need to get down to implementation requirements
 	    
-3. **To-Do Items Discussed**
+3. **To-Do Items Discussed**  
 	1. Owen - Create markdown file containing the functional requirements on accessible repository.
 	2. Sandy - Create dependency matrix (clearly lays out what systems are dependent on eachother).
 	3. Owen - Create a to-do list/ board.
@@ -35,15 +35,15 @@
 
 Attendees: Alex, Asa, Owen
 
-1. **Check electrical inventory to prevent duplicate purchases**
-2. **Discussion with Alex on new electrical system**
+1. **Check electrical inventory to prevent duplicate purchases**  
+2. **Discussion with Alex on new electrical system**  
 	1. Relayed high level system requirements.
 	2. Broke that down into high level tasks. 
 	3. Gantt chart created by Alex as a suggested timescale for each task. 
 	4. To-Do: Break down each high level task into sub tasks with team, assign owners of each task.
 	5. Note: Alex wishes to be involved in physical layout of the electronics within the box. 
 		
-3. **Software Team Discussion**
+3. **Software Team Discussion**  
 	1. Software teams requires the following connections
 		1. LIDAR over ethernet 
 		2. JETSON over ethernet to router
@@ -52,9 +52,9 @@ Attendees: Alex, Asa, Owen
 	    1. Three devices are required to be connected over ethernet 
 	    2. The router only has two ethernet ports, creating a need for a network switch - which adds several more ethernet connections to the router. 
 	    3. Unsure if the router or network switch are making devices on the network run slower, the setup may change.
-4. **To-Do:** Software team to produce a document detailing their hardware requirements. 
+4. **To-Do:** Software team to produce a document detailing their hardware requirements.   
 	
-5. **Previous challenge during Njord:** Interference with other boats during the challenge. 
+5. **Previous challenge during Njord:** Interference with other boats during the challenge.   
 	1. Asa mentioned the need for a separate radio.
 	2. Owen mentioned how the diagnostic system would have a separate radio - idea received well. 
 	3. Legal radio bands need to be researched, must work within Norway and the UK. 
