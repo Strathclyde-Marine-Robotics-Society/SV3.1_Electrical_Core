@@ -8,12 +8,12 @@
 ### Topics
 
 1. **Recap of Electrical System**  
-	1. **Kill Switch Investigation**
+	1. **Kill Switch Investigation**  
 	    1. Question: Why are there two wireless kill switches? - Car key, RC switch.
 	    2. Assumption: Car and the emergency button have identical behaviour (aside from range)
 	    3. Potential Reason: The car key offers redundancy, which is a priority
 	    4. Investigation/ Future Work: Does the RC have identical behaviour to the other kill switch options? If so, do we keep it? If not, is the different functionality useful to keep?
-	  2. **ESC Transient Suppression**
+	  2. **ESC Transient Suppression**  
 	    1. Investigation: Do current ESC's have transient suppression? 
 	    
 2. **System Functionality Requirements**  
@@ -44,11 +44,11 @@ Attendees: Alex, Asa, Owen
 	5. Note: Alex wishes to be involved in physical layout of the electronics within the box. 
 		
 3. **Software Team Discussion**  
-	1. Software teams requires the following connections
+	1. Software teams requires the following connections  
 		1. LIDAR over ethernet 
 		2. JETSON over ethernet to router
 		3. BULLET over ethernet
-	2. Discussion with software team (Asa) on network hardware issues.
+	2. Discussion with software team (Asa) on network hardware issues.  
 	    1. Three devices are required to be connected over ethernet 
 	    2. The router only has two ethernet ports, creating a need for a network switch - which adds several more ethernet connections to the router. 
 	    3. Unsure if the router or network switch are making devices on the network run slower, the setup may change.
