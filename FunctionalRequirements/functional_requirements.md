@@ -20,11 +20,13 @@
 	2. Transmission
 		1. Radio
 		2. Ethernet  
-4. **MCU**
+4. **Control**
 	1. Communication
 		1. Input
 			1. User control
 			2. Jetson control
 		2. Output
 			1. Motors
-			2. State (Traffic light)  
+			2. State (Traffic light)
+5. **Physical Layouting**
+	- To be added
