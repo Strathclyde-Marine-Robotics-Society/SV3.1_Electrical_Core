@@ -13,44 +13,68 @@ Find everything that needs done in this file.
 
 # Development To-Do
 
-1. MCU Board
+ MCU Board - Ezra, Sandy, Alfie, Ben
 	1. MCU Selection
-		1. Assess pin requirements
-			1. I/O interaction with other systems
-			2. Decide suitable communication protocols
-			3. Power filters - reduce noise - how do other MCU's do it?
-			4. Price
-				1. Delivery
-				2. Actual board and all the components
-			5. Power requirement
-			6. RTOS?
-	2. Software Architecture
-		1. RTOS vs Bare Metal
+		1. Assess pin requirements - Ben
+			1. Assess I/O interaction with other systems
+			2. Assess suitable communication protocols between systems
+		2. ~~Research power filters~~
+			- ~~How do other MCU's do it?~~
+		3. Price  - Ben
+			- Delivery 
+			- Board cost - 5 for £5 pre-assembled
+			- Assembly cost
+		4. ~~Assess power requirements~~
+		5. ~~Assess RTOS compatibility~~
+	2. Assess Software Architecture - Owen
+		1. ~~RTOS vs Bare Meta - RTOS~~
 		2. General file structure
-	3. Board Level Components
-		1. LED
-		2. Headers/ Interfaces
-			1. USB - Jetson
-			2. Assess Physical Layout Impact
-			3. Need for scalability
+		3. Set consistent coding guidelines (MRSA standard)
+	3. MCU coding - everyone
+	4. ~~Assess Board Level Components~~
+		1. ~~LED component~~
+		2. ~~Headers/ Interfaces~~
+			- ~~USB - Jetson~~
+			- ~~Assess Physical Layout Impact~~
+			- ~~Scalability - extra pins~~
 
-2. Diagnostic Sytem
-	1. Assess what to measure
-		1. BMS 
+2. Diagnostic System - Sandy, Alfie, Michael, Eli
+	1. Assess what to measure - Eli - FUNCTIONAL REQUIREMENTS
+	2. Asses How to Measure it - Eli
+		1. BMS - Sandy
 			1. Battery visibility 
-		2. JETSON
+		2. JETSON - Eli
 			1. GPS data?
-		3. Sensors required
+			2. JETSON health monitoring and mission data
+		3. Sensors required - Eli
 			1. Evaluate price
 			2. Evaluate precision
-	2. Packet Structure
+			3. Compare
+	3. Packet Structure - Michael
 		1. Validation of data packets
-	3. Radio system
-		1. Legality
+	4. Radio system - Michael
+		1. Assess Legality - UK & Norway
 		2. Frequency
 		3. Exact radios to use, evaluating cost and other variables
-	4. Mission UI
-		1. How to display data in an approachable way?
-	5. MCU 
+	5. Mission UI wireframe - Alfie
+		- How to display the diagnostic data in an approachable way?
+	6. Diagnostic MCU board - Alfie, Michael
 		1. Assess pin requirements
-		2. Communication protocols
+		2. Assess communication protocols
+		3. Could use a simple Arduino
+
+3. Custom ESC - Ben
+
+4. Physical Layouting - Sandy
+	1. Server racks idea
+	2. Leak Sensors
+	3. ESCS
+		1. Seperate box with cooling and multiple inside
+	4. DIN Rail idea
+	5. Doige connector orange and grey for power cables and rails
+	6. mounting standard
+		1. current 20x20 aluminium extrusions -  better fitting would be nicer 
+		2. shear/ tension forces
+			- clamps
+5. ~~Get engine room free - Owen~~
+
