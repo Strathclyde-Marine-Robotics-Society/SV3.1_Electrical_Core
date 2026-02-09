@@ -13,13 +13,25 @@
 	2. Network (software)
 	3. Diagnostics
 3. Diagnostics - Eli, Michael
-	1. Collection
-		1. Sensors
-		2. MCU state and commands
-		3. BMS 
-	2. Transmission
-		1. Radio
-		2. Ethernet
+	- 3.1 Sensing
+		- 3.1.1 The device must measure the temperature inside ESC enclosures.
+		- 3.1.2 The device must measure the temperature inside the main electronics enclosure.
+		- 3.1.3 The device must detect water ingress in the main electronics enclosure.
+		- 3.1.4 The device should communicate with the Battery Management System to obtain cell and array status data.
+		- 3.1.5 The device must receive data from the Jetson, including GPS position.
+		- 3.1.6 The device should communicate with the Control system to obtain thruster output commands.
+		- 3.1.7 The device should measure power delivered to thrusters.
+	- 3.2 Transmission of Data
+		- 3.2.1 All sensor data must be periodically polled and formatted into a standard packet structure.
+		- 3.2.2 Data packets must be transmitted at regular intervals over radio.
+		- 3.2.3 Packet structure must include a checksum to allow for verification of data integrity.
+		- 3.2.4 Radio signals must be of sufficient power and appropriate frequency to be reliably received at 500m with line-of-sight (to shore).
+		- 3.2.5 Transmission should be resilient to interference, by implementing Frequency Hopping Spread Spectrum (FHSS) or equivalent technique.
+	- 3.3 Receiving Data
+		- 3.3.1 The receiving radio must decode the radio signal and provide this as a USB interface.
+		- 3.3.2 The received data must be saved to a file on a shore computer as a log.
+		- 3.3.3 The data must be displayed in real-time on the screen of a shore computer for monitoring.
+		- 3.3.4 The shore computer should provide a graphical user interface for real-time monitoring of diagnostic data.
 4. Control - Alfie
 	1. Communication
 		1. Input
