@@ -41,23 +41,27 @@
 			1. Motors
 			2. State (Traffic light)
 5. Physical Layout - Ezra
-	1. Modular
-		1. All parts must be easy to access and remove. 
-			- Server rack? Layers?
+	1. Modularity
+		1. All parts must be easy to access and remove
+			1. Server rack like system - further research required
+			2. layered racked system - further research required
+		2. Subsystems are positioned such that they can be visually distinguished
+		3. Internal components are placed in positions that make them unable to interfere with other systems (Power cables far from ICs)
 	2. Security
-		1. All parts must not disconnect during a mission. 
-			- Critical components must be secured via xyz if needed
+		1. All ICs, cables and components will remain connected and in place during normal operation
+			- Components at risk of vibration or moving will be secured (via reusable zip ties, duct tape, screws, or server rack mechanism mentioned above)
 	3. Wiring
-		1. Prioritise shorter signal paths.
-		2. Self-documenting
-			1. Colour coding standard
-			2. Stickers
-		3. Prioritise shielding over cable connections.
+		1. Shorter signal paths will be prioritised
+		2. Shielding over cable connections where possible
+		3. Self-documenting
+			1. All cables will be colour coded with a standardised, well documented system
+			2. Stickers/Labels will be placed on key/large cables and on cables that are frequently disconnected for maintenance 
 	4. Cooling
-		1. Main box does not require cooling as of yet
-		2. ESC
-			1. ESC must not melt in all climates. 
+		1. Main box(es) maintains standard operating temperature (-5°C to 45°C)
+		2. ESCs are able to maintain standard operating temperature (-5°C to 65°C)
+			1. ESC Compartment will be made of a reflective material
+			2. Need to asses need or possibility for active cooling (passive heatsinks + active airflow)?
 	5. Waterproofing
-		1. Cable glands
-		2. Box
-		3. Components
+		1. All cable connections passing in/out of housing compartments will have waterproof cables glands
+		2. Any Boxes or compartments used to house electric components will be waterproof
+		3. Components that are not in a waterproof compartment will be waterproofed themselves
