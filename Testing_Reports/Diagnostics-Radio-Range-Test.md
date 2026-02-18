@@ -57,7 +57,7 @@ I then repeated the test at just over 1km (1020m straight-line distance). Note t
 <img width="2293" height="1542" alt="digimap_roam(1)" src="https://github.com/user-attachments/assets/5cbac0bf-93f9-4e1a-8ad2-05231013e5f2" />
 
 ## Results
-Data was received at 690m with no lost of corrupted packets. 53281 uint32_t numbers were received during the short test, which is 213,124 bytes (213.124KB).
+Data was received at 690m with no lost or corrupted packets. 53281 uint32_t numbers were received during the short test, which is 213,124 bytes (213.124KB).
 
 Testing at 1km was not required in order to meet the design requirements, but it gave an indication of limits. The data stream could be received without losses if the receiving radio was held up at head-height, although some packets were lost when moving it around.
 This is likely worsened by the buildings in the way.
