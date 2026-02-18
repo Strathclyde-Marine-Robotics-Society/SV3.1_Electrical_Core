@@ -51,28 +51,46 @@
 			- b. The microcontroller must display this through controlling a relay for the 'Traffic Light'
 		4.2.3. Diagnostic System
 			- a. The microcontroller must be able to send the thruster controls (from jetson or RC) to the Diagnostic System
-5. Physical Layout - Ezra
-	1. Modularity
-		1. All parts must be easy to access and remove
-			1. Server rack like system - further research required
-			2. layered racked system - further research required
-		2. Subsystems are positioned such that they can be visually distinguished
-		3. Internal components are placed in positions that make them unable to interfere with other systems (Power cables far from ICs)
-	2. Security
-		1. All ICs, cables and components will remain connected and in place during normal operation
-			- Components at risk of vibration or moving will be secured (via reusable zip ties, duct tape, screws, or server rack mechanism mentioned above)
-	3. Wiring
-		1. Shorter signal paths will be prioritised
-		2. Shielding over cable connections where possible
-		3. Self-documenting
-			1. All cables will be colour coded with a standardised, well documented system
-			2. Stickers/Labels will be placed on key/large cables and on cables that are frequently disconnected for maintenance 
-	4. Cooling
-		1. Main box(es) maintains standard operating temperature (-5°C to 45°C)
-		2. ESCs are able to maintain standard operating temperature (-5°C to 65°C)
-			1. ESC Compartment will be made of a reflective material
-			2. Need to asses need or possibility for active cooling (passive heatsinks + active airflow)?
-	5. Waterproofing
-		1. All cable connections passing in/out of housing compartments will have waterproof cables glands
-		2. Any Boxes or compartments used to house electric components will be waterproof
-		3. Components that are not in a waterproof compartment will be waterproofed themselves
+5. Physical Layout - Ezra, Sandy
+	- 	5.1. The design and placement of the components/subsystems on the boad shall be modular.
+		- 	5.1.1. All parts shall be easy to access and remove
+ 			- 5.1.1.1. Server rack like system - further research required?
+			- 5.1.1.2. layered racked system - further research required?
+			- 5.1.1.3. Seperate box system - like alex said?
+  		- 5.1.2. Subsystems shall be positioned such that their nature is visually distinguishable
+			- 5.1.2.1. Subsystems shall be colour coded
+			- 5.1.2.2. Subsystems shall be placed in positions that do not overlap and have clear seperation
+		- 5.1.3. Internal components shall placed in positions that minimise interference and clutter
+
+	- 5.2. The mechanical connections of subsystems and components to the boat shall be secure.
+		- 5.2.1. All ICs, cables and components shall remain connected and in place during normal operation
+		- 5.2.2. Mechanical stresses induced by vibration, corrosion, heat etc. shall be minimised
+			- 5.2.2.1. Dampening systems shall be used where required to reduce stresses on securely connected pieces.
+		- 5.2.3. Wiring connections shall be secure.
+			- 5.2.3.1. Cables/wires which will not require diconnection for maintainance (and are not on a PCB) shall be soldered or otherwise fixed in place
+			- 5.2.3.2. Cables/wires which do require disconnection for maintenance shall use safe and reliable terminal connectors (screw terminals etc., NOT dupont or a breadboard :(. Fuck dupont cables).
+
+	- 5.3. The wiring organisation on the boat shall be considered.
+		- 5.3.1. Shorter signal paths shall be prioritised.
+		- 5.3.2. Shielding shall be present over cable connections where possible.
+		- 5.3.3. The wiring shall be self-documenting.
+			- 5.3.3.1. All cables shall be colour coded with a standardised, well documented system
+			- 5.3.3.2. Stickers/Labels shall be placed on key/large cables and on cables that are frequently disconnected for maintenance
+		- 5.3.4. The wiring shall be organised in a manner which minimises interference
+			- 5.3.4.1. High voltage cables (especially high frequency) shall be considerably positioned from information cables (maximally far, or shielded, or wrapped around ground etc.).
+			- 5.3.4.2. Cables shall be arranged in forms that reduce parasitic capacitance/inductance and other forms of energy loss.
+		- 5.3.5. The wiring shall not be cluttered.
+			- 5.3.5.1. The wiring shall be organised, w good cable management.
+			- 5.3.5.2. The wiring shall not interfere or coincide with any moving/potentially damaging parts (fans, hot parts etc.)
+   
+	- 5.4. Cooling
+		- 5.4.1. Main box(es) shall maintain standard operating temperature (-5°C to 45°C)
+		- 5.4.2. ESCs are able to maintain standard operating temperature (-5°C to 65°C)
+			- 5.4.2.1. ESC Compartment shall be made of a reflective material
+			- 5.4.2.2. Need to asses need or possibility for active cooling (passive heatsinks + active airflow)?
+   
+	- 5.5. Waterproofing
+		- 5.5.1. All cable connections passing in/out of housing compartments shall have waterproof cables glands
+		- 5.5.2. Any boxes or compartments used to house electric components will be waterproof
+		- 5.5.3. Components that are not in a waterproof compartment will be waterproofed themselves
+
