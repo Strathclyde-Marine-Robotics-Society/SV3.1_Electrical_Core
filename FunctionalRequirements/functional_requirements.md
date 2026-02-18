@@ -33,23 +33,23 @@
 		- 3.3.3 The data must be displayed in real-time on the screen of a shore computer for monitoring.
 		- 3.3.4 The shore computer should provide a graphical user interface for real-time monitoring of diagnostic data.
 4. Control - Alfie
-	4.1. Input
-		4.1.1. User control
+	- 4.1. Input
+		- 4.1.1. User control
 			- a. The microcontroller must be able to receive commands for the thrusters from the RC controller
 			- b. The microcontroller must check the commands from the RC controller regularly for changes
 			- c. The microcontroller must process the commands into signals to send to the thrusters
 			- d. The microcontroller must be able to receive a signal informing of control delegation (autonomous or manual)
 			- e. The microcontroller must be able to respond to a killswitch and stop processes immediately 
-		4.1.2. Jetson control
+		- 4.1.2. Jetson control
 			- a. The microcontroller must be able to receive inputs from the Jetson's USB-C port as commands for the thrusters
 			- b. The microcontroller must be able to inform the Jetson when SV is in autonomous mode or not
- 	4.2. Output
-		4.2.1. Thrusters
+ 	- 4.2. Output
+		- 4.2.1. Thrusters
 			- a. The microcontroller must be able to send commands to the thrusters that are acceptable for the ESCs
-		4.2.2. State (Traffic light)
+		- 4.2.2. State (Traffic light)
 			- a. The microcontroller must know which state SV is in at the current moment - Autonomous, Manual, Off (?)
 			- b. The microcontroller must display this through controlling a relay for the 'Traffic Light'
-		4.2.3. Diagnostic System
+		- 4.2.3. Diagnostic System
 			- a. The microcontroller must be able to send the thruster controls (from jetson or RC) to the Diagnostic System
 5. Physical Layout - Ezra, Sandy
 	- 	5.1. The design and placement of the components/subsystems on the boad shall be modular.
